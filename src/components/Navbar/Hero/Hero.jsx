@@ -8,7 +8,7 @@ const Hero = () => {  // Changed component name to PascalCase
       <div className="hero-content">
         <img src={profile} alt="Profile" />
         <h1>
-          <span>I'm Logamithran,</span> 
+          <span>I'm Logamithran, </span> 
           AI Student
         </h1>
         <p>
@@ -16,8 +16,18 @@ const Hero = () => {  // Changed component name to PascalCase
           Passionate about building AI-powered solutions and full-stack web applications.
         </p>
         <div className="hero-action">
-          <button className="hero-connect">Connect with me</button>
-          <button className="hero-resume">My resume</button>
+          <button className="hero-connect"><a
+    href="https://www.linkedin.com/in/logamithran-balasubramaniam-6160b4283/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Connect With Me
+  </a></button>
+          <button className="hero-resume"><a 
+  href="/Logamithrancbres1.pdf" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>My resume</a></button>
         </div>
       </div>
     </section>

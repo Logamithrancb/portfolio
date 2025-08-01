@@ -85,6 +85,23 @@
     background-color: #fff;
     transition: all 0.3s ease;
 }
+.nav-connect a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.nav-connect a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
     .nav-hamburger {

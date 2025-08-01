@@ -60,7 +60,7 @@ const Navbar = () => {
                     setIsOpen(false);
                 }}
             >
-                <li className={`nav-portfolio ${menu === 'portfolio' ? 'active' : ''}`}>Portfolio</li>
+                <li className={`nav-portfolio ${menu === 'portfolio' ? 'active' : ''}`}>LinkedIn</li>
             </a>
 
             <Link 
@@ -78,7 +78,15 @@ const Navbar = () => {
             </Link>
         </ul>
         
-        <div className="nav-connect">Connect With Me</div>
+        <div className="nav-connect">
+  <a
+    href="https://www.linkedin.com/in/logamithran-balasubramaniam-6160b4283/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Connect With Me
+  </a>
+</div>
     </div>
   )
 }
